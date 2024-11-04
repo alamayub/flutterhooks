@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'stream_controller_hook.dart';
+import 'reducer_hook.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: const StramControllerHook(),
+      home: const ReducerHook(),
     );
   }
 }
