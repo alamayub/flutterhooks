@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'future_hook.dart';
+import 'memoized_hook.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: const FutureHook(),
+      home: const MemoizedHook(),
     );
   }
 }
