@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'reducer_hook.dart';
+import 'app_life_cycle_hook.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: const ReducerHook(),
+      home: const AppLifeCycleHook(),
     );
   }
 }
