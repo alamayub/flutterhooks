@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'text_editing_controller_hook.dart';
+import 'future_hook.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: const TextEditingControllerHook(),
+      home: const FutureHook(),
     );
   }
 }
