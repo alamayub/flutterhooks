@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'stream_hook.dart';
+import 'text_editing_controller_hook.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,13 +14,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Hooks',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: const StreamHook(),
+      home: const TextEditingControllerHook(),
     );
   }
 }
