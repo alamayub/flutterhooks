@@ -43,7 +43,7 @@ class AnumationHook extends HookWidget {
     }, [controller]);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Another Hook'),
+        title: Text('Animation Hook'),
       ),
       body: Column(
         children: [
